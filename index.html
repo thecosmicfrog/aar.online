@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>418 I'm a teapot</title>
+
+        <style>
+            #attribution {
+                position: fixed;
+                bottom: 1px;
+                font-size: 10px;
+            }
+
+            img {
+                transition: all 1s ease-in-out 0s;
+            }
+
+            img:hover {
+                cursor: default;
+                transform: rotate(-45deg);
+                transition: all 1s ease-in-out 0s;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>418 I'm a teapot</h1><br>
+
+        <img src="teapot.png">
+
+        <p>Your request to brew coffee with this server has failed for the following reason:</p>
+        <p>This HTCPCP server is a teapot. The requested entity body is short and stout.</p>
+        <p>Tip me over and pour me out.</p>
+        <br>
+        <p><a href="https://tools.ietf.org/html/rfc2324#section-2.3.2">RFC 2324</a></p>
+
+        <div id="attribution">Teapot image courtesy of superawesomevectors.deviantart.com</div>
+    </body>
+</html>
+
